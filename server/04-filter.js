@@ -21,7 +21,7 @@ const orders = [
 },
 ];
 
-rta2 = orders.filter(item => item.delivered && item.total >= 200)
+rta2 = orders.filter(item => item.delivered && item.total >= 50)
 console.log(rta2)
 
 const search = (query)=> {
